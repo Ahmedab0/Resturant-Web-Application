@@ -1,0 +1,616 @@
+/* Start global rules */
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+         -o-box-sizing: border-box;
+            box-sizing: border-box;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #F2F0F0;
+}
+
+/* Start  Separator*/
+.separator {   
+    margin: 70px auto;
+    text-align: center
+}
+.separator img {    
+    width: 100%
+}
+
+/* End global rules */
+
+/* Start Upper Bar */
+.upper-bar {
+    background-color: #5FA022;
+    padding: 10px;
+    color: #FFF;
+}
+.upper-bar a {
+    text-decoration: none;
+    color: #FFF
+}
+.upper-bar .contact-bar i {
+    margin-left: 5px
+}
+.upper-bar .contact-bar span {
+    font-size: 14px
+}
+.upper-bar .info-bar span {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin-right: 40px;
+}
+.upper-bar .info-bar a {
+    border: 1px solid #BDF33A/*#E2827E*/;
+    font-size: 14px;
+    padding: 4px 12px;
+    width: 125.14px
+}
+.upper-bar .info-bar a:hover {
+    background-color: #FFF;
+    border: 1px solid #FFF;
+    color: #27ae60
+}
+.relative {
+    position: relative
+}
+.open-hour {
+    position: absolute;
+    top: -160px;
+    right: 0;
+    width: 255px;
+    z-index: 5;   
+    cursor: cross;
+    background-color: #5fa022;
+    color: #fff;
+    border: 1px solid #BDF33A;
+    font-family: 'Kaushan Script', cursive;
+    -webkit-box-shadow: -3px 3px 10px 1px #ababab;
+       -moz-box-shadow: -3px 3px 10px 1px #ababab;
+         -o-box-shadow: -3px 3px 10px 1px #ababab;
+            box-shadow: -3px 3px 10px 1px #ababab
+}
+.open-hour:hover {
+    -webkit-box-shadow: none;
+       -moz-box-shadow: none;
+         -o-box-shadow: none;
+            box-shadow: none
+}
+.open-hour i {
+    color: #5fa022;
+    background-color: #fff;
+    cursor: pointer;
+    padding: 2px 5px;
+}
+.open-hour h5 {
+    margin: 10px 0
+}
+.open-hour p {
+    font-size: 14px;
+}
+.open-hour p:last-of-type {
+    margin-top: -12px
+}
+/* End Upper Bar */
+
+/* Start Navbar */
+
+.navbar {
+    padding: 10px 0;
+    z-index: 3;
+    -webkit-box-shadow: 0 1px 10px 1px #ababab;
+       -moz-box-shadow: 0 1px 10px 1px #ababab;
+         -o-box-shadow: 0 1px 10px 1px #ababab;
+            box-shadow: 0 1px 10px 1px #ababab;
+}
+.navbar .active {
+    background-color: #E75353;
+    color: #FFF !important;
+    border-radius: 5px
+}
+.navbar-light .navbar-nav .active>.nav-link {
+    color: #FFF
+}
+.navbar-light .navbar-nav .nav-link
+ {
+    font-size: 22px;
+    padding: 2px 15px;
+    color: #85423f;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    background-color: #E2827E;
+    color: #FFF;
+    border-radius: 5px
+}
+/* End Navbar */
+
+/* Start Header */
+header .carousel-indicators {
+    bottom: -27px
+}
+header .carousel-indicators li {
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-left: 5px;
+    background-color: #E75353;
+}
+header .carousel-indicators .active {
+    background-color: #FFF;
+    border: 3px solid #E75353
+}
+header .carousel-indicators li:hover {
+    background-color: #FFF;
+    border: 3px solid #E75353
+}
+/* End Header */
+
+/* Start Welcome */
+.welcome h1 {
+    margin-bottom: 70px;
+    font-weight: bold;
+    color: #85423f;
+    font-family: 'Kaushan Script', cursive;
+}
+.welcome .info p {
+    font-size: 18px;
+    line-height: 1.7;
+    color: #7b6b6a;
+}
+.welcome .info p:last-of-type {
+    margin-bottom: 35px;
+    margin-top: 30px
+}
+.welcome .info a {
+    background-color: #E75353;
+    color: #FFF;
+    border: 1px solid #E75353;
+    border-radius: 4px;
+    text-decoration: none;
+    padding: 3px 14px;
+    font-size: 18px
+}
+.welcome .info a:hover {
+    background-color: #5FA022;
+    border: 1px solid #5FA022
+}
+/* End Welcome */
+
+/* Start Best Choise */
+.best-choice {
+    position: relative
+}
+.best-choice .h1 {
+    margin-bottom: 25px;
+    font-weight: bold;
+    color: #85423f;
+    font-family: 'Kaushan Script', cursive;
+}
+.best-choice p.main {
+    width: 70%;
+    margin: auto;
+    font-size: 16px;
+    color: #7b6b6a;
+    margin-bottom: 80px
+}
+.best-choice .icon {
+    position: absolute;
+    top: 240px;
+    right: 31px
+}
+.best-choice .icon i {
+    padding: 7px 12px;
+    color: #fff;
+    background-color: #5FA022;
+    border-radius: 5px;
+}
+
+/* Start Owl Carousel */
+.best-choice .owl-carousel .owl-nav {
+    position: absolute;
+    top: -43px;
+    right: 30px;
+    opacity: 0
+}
+.best-choice .owl-carousel .owl-nav button span {
+    font-size: 14px;
+    margin: 0 2px;
+    padding: 5px 16px;
+    border-radius: 5px;
+    background-color: #ddd
+}
+.best-choice .card {
+    overflow: hidden
+}
+.best-choice .card:hover span.circle {
+    background-color: #E2827E
+}
+.best-choice .card-body .price {
+    position: absolute;
+    bottom: 2px;
+    left: 98px;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Kaushan Script', cursive;
+    z-index: 9;
+}
+
+.best-choice .card-body .circle {
+    position: absolute;
+    bottom: -365px;
+    left: -83px;
+    background-color: #5FA022;
+    width: 404px;
+    height: 404px;
+    border-radius: 50%;
+}
+.best-choice .card-body h5 {
+    font-family: 'Kaushan Script', cursive;
+    color: #85423f;
+    font-size: 20px;
+    text-transform: capitalize
+}
+.best-choice .card-body p {
+    font-size: 14px;
+    color: #676666;
+    margin-bottom: 35px
+}
+/* End Best Choise */
+
+/* Start Footer */
+footer .h1 {
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: #85423f;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 30px;
+}
+/* Start Follow Us */
+
+footer .follow-us .social-icon {  /* Start Social Icon Nav */
+    margin-bottom: 22px
+}
+footer .follow-us .social-icon li {
+    display: inline-block;
+    padding: 3px;
+    background-color: #5FA022;
+    color: #fff;
+    border-radius: 6px;
+    margin: 0 5px;
+}
+footer .follow-us .social-icon li:hover {
+    opacity: .5
+}
+footer .follow-us .social-icon a {
+    text-decoration: none
+}/* Start Footer Nav */
+footer .follow-us .footer-nav li {
+    display: inline-block;
+}
+.nav-link {
+    padding: .3rem .4rem; 
+}
+.follow-us .footer-nav a {
+    color: #566757
+}
+.follow-us .footer-nav a:hover {
+    color: #5FA022;
+}
+footer .select {
+    color: #5FA022
+}/* End Follow Us */
+
+/* Start Subscript */
+.subscript p {
+    font-size: 14px;
+    color: #676666;
+    margin-top: -13px
+}
+.subscript .form-control {
+    border-radius: 0;
+    width: 260px;
+    font-size: 14px
+}
+.subscript .btn {
+    border-radius: 0;
+    padding: 0.290rem .75rem;
+}
+.btn-danger {
+    background-color: #E75353;
+    border-color: #E75353;
+}
+.subscript button:hover {
+    background-color: #5FA022;
+    border: 1px solid #5FA022
+}
+.subscript .error-message {
+    font-size: 13px;
+    display: none
+}  /* End Subscript */
+
+/* Start CopyRight */
+footer .copyright {
+    background-color: #5FA022;
+    height: 60px;
+    line-height: 60px;
+    margin-top: 30px;
+}
+footer .copyright span {
+    display: block
+}  /* End CopyRight */
+
+/* End Footer */
+
+/******* START PAGES STYLES *******/
+
+/*** Start page About Us ***/
+
+/* Start About-Us */
+.about-us h1 {
+    margin: 70px 0;
+    font-weight: bold;
+    color: #85423f;
+    font-family: 'Kaushan Script', cursive;
+}
+.about-us .taps {
+    margin-top: 12px;
+}
+.about-us .taps li {
+    display: inline-block;
+    width: 150px;
+    padding: 8px 0;
+    margin-right: 21px;
+    background-color: #E75353;
+    color: #fff;
+    border: 1px solid #E75353;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer
+}
+.about-us .taps li:hover {
+    background-color: #5FA022;
+    border: 1px solid #5FA022;
+}
+.about-us .taps li.clicked {
+    color: #E75353;
+    background-color: #fff;
+    border-bottom: none
+}
+.about-us .taps-content {
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #E75353;
+    border-top: none;
+    margin-top: -17px;
+    width: 500px;
+}
+.about-us .taps-content div:not(.about-content) {
+    display: none
+}
+.about-us .taps-content p {
+    font-size: 18px;
+    line-height: 1.7;
+    color: #7b6b6a;
+    margin-top: 15px
+}
+/* End About-Us */
+
+/* Start Our Food */
+.our-food .h1 {
+    margin: 70px 0;
+    font-weight: bold;
+    color: #85423f;
+    font-family: 'Kaushan Script', cursive;
+}
+.our-food .box:hover .img-icon {
+    background-color: #E2827E;
+    border: 1px solid #E2827E;
+}
+.our-food .icon .img-icon {
+    background-color: #5FA022;
+    border-radius: 50%;
+    padding: 11px;
+    border: 1px solid #5FA022;
+    width: 70px;
+    height: 70px;
+}
+
+.our-food h3 {
+    color: #85423f;
+    font-family: 'Kaushan Script', cursive;
+    margin-top: 25px;       
+}
+.our-food p {
+    color: #7b6b6a;
+}
+/* End Our Food */
+
+/* Start Testimonials */
+.testim {
+    background: url(../images/testim.jpg) top center no-repeat fixed;
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+    min-height: 500px;
+    position: relative;
+}
+.testim .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .6);
+    color: #b6b5b5;
+    padding-top: 50px;
+    padding-bottom: 50px
+}
+.testim .h1 {
+    margin-bottom: 60px;
+    font-weight: bold;
+    font-family: 'Kaushan Script', cursive;
+}
+.testim .client-say img {
+    width: 100px
+}
+.testim .client-say img.img-thumbnail {
+    border-radius: 50%
+}
+.testim .client-say h3 {
+    font-family: 'Kaushan Script', cursive;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    font-size: 22px;
+}
+.testim .client-say q {
+    color: #b6b5b5;
+    font-size: 18px;
+    line-height: 1.7;
+}
+.testim .client-say .stars {
+    margin-top: 20px
+}
+.testim .client-say .stars i {
+    color: #ffb300
+}
+.testim .client-say {
+    display: none;
+}
+.testim .client-say.t-active {
+    display: block
+}
+/* End Testimonials */
+/* Start Our Awesome Team */
+.our-team .h1 {
+    margin: 70px 0;
+    font-weight: bold;
+    color: #85423f;
+    font-family: 'Kaushan Script', cursive;
+}
+.our-team .chef-body h4 {
+    font-family: 'Kaushan Script', cursive;
+    margin-top: 10px;
+    color: #85423f;
+    font-size: 22px;
+    
+}
+.our-team .chef-body p {
+    font-weight: bold;
+    color: #999;
+    margin-bottom: 5px;
+}
+.our-team .social-icon li {
+    display: inline-block
+}
+.our-team .social-icon li i {
+    color: #999
+}
+.our-team .chef-box:hover .chef-body p {
+    color: #333
+}
+.our-team .chef-box:hover i.fa-facebook-f {
+    color: #3b5998;
+}
+.our-team .chef-box:hover i.fa-twitter {
+    color: #1da1f2
+}
+.our-team .chef-box:hover i.fa-instagram {
+    color: #405de6
+}
+/* End Our Awesome Team */
+/*** End page About Us ***/
+ 
+/*** Start Page Menu ***/
+/* Start Food Menu */
+
+.menu h1 {
+    margin-top: 80px;
+    font-weight: bold;
+    color: #85423f;
+    font-family: 'Kaushan Script', cursive;
+}
+.menu p {
+    font-size: 18px;
+    line-height: 1.7;
+    color: #7b6b6a;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 50px
+}
+.menu .menu-tap .menu-tap-link {
+    margin-bottom: 60px;
+}
+.menu .menu-tap .menu-tap-link li {
+    display: inline-block;
+    width: 150px;
+    padding: 5px 0;
+    margin: 30px 10px;
+    background-color: #fff;
+    color: #5FA022;
+    border: 1px solid #5FA022;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer; 
+}
+.menu .menu-tap .menu-tap-link li:hover {
+    background-color: #5FA022;
+    color: #fff;
+}
+.menu .menu-tap .menu-tap-link li.choosed {
+    background-color: #5FA022;
+    color: #fff;
+}
+.menu-tap .menu-tap-content .menu-food .title {
+    margin-bottom: 20px
+}
+.menu-tap .menu-tap-content .menu-food .title h3 {
+    font-weight: bold;
+    color: #5FA022;
+    font-family: 'Kaushan Script', cursive;
+}
+.menu-tap .menu-tap-content .menu-food li {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+.menu-tap .menu-tap-content .menu-food h5,
+.menu-tap .menu-tap-content .menu-food .price
+{
+    font-weight: bold;
+    color: #5FA022;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 1rem;
+}
+.menu-tap .menu-tap-content .menu-food span {
+    font-size: 13px;
+    color: #7b6b6a;
+}
+.menu-tap .menu-tap-content > div:not(.drinks) {
+    display: none
+}
+
+/* End Food Menu */
+/*** End Page Menu ***/
+
+
+/******* END PAGES STYLES *******/
+
+First-color: #5FA022
+Second-color: #E75353
+Third-color: #E2827E
+header-color: #85423f
+/* START OUR FRAMEWORK */
+.transition {
+    -webkit-transition: all .5s ease-in-out;
+       -moz-transition: all .5s ease-in-out;
+         -o-transition: all .5s ease-in-out;
+            transition: all .5s ease-in-out;
+}
+/* END OUR FRAMEWORK */
